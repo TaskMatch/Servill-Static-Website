@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+            <link rel="icon" 
+            type="image/ico" 
+            href="Images/favicon.ico">
+    <title>Servill: People helping people</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-case=1, user-scalable=no" />
+    <link rel="stylesheet" href="Design/css/main.css" />
+    </head>
+    <body class="is-preload">
+            <nav id="nav">
+                    <ul>
+                        <li><a class="icon fa-home" href="index.html"><span>Introduction</span></a></li>
+                        <li><a class="icon fa-cog" href="About-Us.html"><span>About Us</span></a></li>
+                        <li><a class="icon fa-retweet" href="https://medium.com/"><span>Blog</span></a></li>
+                        <li><a class="icon fa-sitemap" href="Contact-Us.html"><span>Contact Us</span></a></li>
+                    </ul>
+                </nav>
+    <header id="header">
+        <h1><img src="Images/Servill.svg" align="bottom" alt="Logo" height="100" width="100">         Contact Us</h1>
+                        
+        </header>              
+  <!--Contact Form-->
+  <style>
+      /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 40%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #303f9f;
+    color: #303f9f;
+    padding: -5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #7fb0ff;
+}
+  </style>
+
+<div class="container">
+        <form class="gform" method="POST" data-email="abbasyounus@gmail.com" action="https://script.google.com/macros/s/AKfycbyELsNtSMJGl41HKHIMGvR-zDmlhnaljaAxxQ0Jkg/exec">
+      
+          <input type="text" id="fname" name="Name" placeholder="Enter Name">
+      
+          <input type="text" id="fname" name="Email" placeholder="Enter Email">
+
+          <textarea id="subject" name="Message" placeholder="Enter Message" style="height:100px"></textarea>
+      
+          <input type="submit" value="Submit">
+
+          <div class="thankyou_message" style="display:none;">
+                <h2>Thanks for contacting us!
+                  We will get back to you soon!</h2>
+              </div>
+      
+        </form>
+      </div>
+    <!--Check font awesome fonts as well as why page isn't resizing properly on a bigger screen-->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Servill 2018</li>
+            </ul>
+        </footer>
+        <script src="Design/javascript/main.js"></script>
+        <script data-cfasync="false" type="text/javascript" src="Design/javascript/Contact.js"></script>
+
+    </body>
+
+</html>
